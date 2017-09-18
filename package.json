@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-mongo",
+  "version": "1.0.0",
+  "description": "Basic Mongo/GraphQL example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Pokemon",
+    "MongoDB",
+    "GraphQL"
+  ],
+  "author": "Trevor Scheer",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.3",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
